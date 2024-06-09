@@ -7,6 +7,7 @@ import os
 
 class Translator:
     def __init__(self):
+        self.file_name = None
         self.root = tk.Tk()
         self.root.title("Translator")
         self.input_file_path = None
@@ -37,6 +38,12 @@ class Translator:
         if file_path:
             global input_file_path
             input_file_path = file_path
+            temp = os.path.basename(file_path)
+            name, ext = os.path.splitext(temp)
+            if ext == ".txt":
+                self.file_name = name + "-en"
+            else:
+                self.file_name = ext + "-en"
             self.make_preview()
 
     def make_preview(self):
@@ -53,6 +60,8 @@ class Translator:
         if folder_path:
             self.save_path_entry.delete(0, tk.END)
             self.save_path_entry.insert(0, folder_path)
+            self.file_name_entry.delete(0,tk.END)
+            self.file_name_entry.insert(0,self.file_name)
 
 
     def translate_and_save(self):
