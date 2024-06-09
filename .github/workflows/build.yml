@@ -21,7 +21,7 @@ jobs:
     - run: pip install argostranslate==1.9.6
     - run: argospm install translate-pl_en
     - run: pip install pyinstaller
-    - run: pyinstaller.exe --onefile --noconsole Translate.py
+    - run: pyinstaller.exe --onefile --noconsole Translator.py
     - name: upload artifact
       uses: actions/upload-artifact@v3
       with:
