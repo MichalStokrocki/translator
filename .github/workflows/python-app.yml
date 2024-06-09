@@ -32,6 +32,7 @@ jobs:
         pip install pytest==8.2.2
         pip install pytest-cov==5.0.0
         pip install flake8 pytest
+        argospm install translate-pl_en
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
