@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="dodany przykładowy tekst (wycinek z Pan Tadeusz) do przetłumaczenia">
-      <change afterPath="$PROJECT_DIR$/.github/workflow/build.yml" afterDir="false" />
+    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="first workflow">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717958560266</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first workflow">
+      <option name="closed" value="true" />
+      <created>1717958920416</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717958920416</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +153,7 @@
     <MESSAGE value="dodano przykładową nazwę przetłumaczonego tekstu z dopiskiem -en" />
     <MESSAGE value="refaktor na PyQT oraz testy zrobione" />
     <MESSAGE value="dodany przykładowy tekst (wycinek z Pan Tadeusz) do przetłumaczenia" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodany przykładowy tekst (wycinek z Pan Tadeusz) do przetłumaczenia" />
+    <MESSAGE value="first workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="first workflow" />
   </component>
 </project>
