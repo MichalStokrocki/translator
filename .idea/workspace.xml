@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="requirements.txt">
+    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="workflow zmieniony na windows-latest">
       <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717959721048</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="workflow zmieniony na windows-latest">
+      <option name="closed" value="true" />
+      <created>1717960020175</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717960020175</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +186,7 @@
     <MESSAGE value="dodany przykładowy tekst (wycinek z Pan Tadeusz) do przetłumaczenia" />
     <MESSAGE value="first workflow" />
     <MESSAGE value="requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements.txt" />
+    <MESSAGE value="workflow zmieniony na windows-latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="workflow zmieniony na windows-latest" />
   </component>
 </project>
