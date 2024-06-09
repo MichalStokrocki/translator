@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/Translator.py" afterDir="false" />
+    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="dodano przykładową nazwę przetłumaczonego tekstu z dopiskiem -en">
+      <change afterPath="$PROJECT_DIR$/test_Translator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Translator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Translator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +18,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MichalStokrocki&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MichalStokrocki/translator.git&quot;,
+    &quot;accountId&quot;: &quot;492e95ab-0455-4a69-8ea5-d618d381a7c5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2heBbaSpJ0JcjTJ02ja7eD1rCeK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in test_Translator.py.executor": "Run",
+    "Python.Translator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -63,11 +80,49 @@
       <option name="project" value="LOCAL" />
       <updated>1717944813335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="a">
+      <option name="closed" value="true" />
+      <created>1717945130063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717945130063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="translator dzialajacy pl -&gt; en">
+      <option name="closed" value="true" />
+      <created>1717946366365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717946366365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dodano przykładową nazwę przetłumaczonego tekstu z dopiskiem -en">
+      <option name="closed" value="true" />
+      <created>1717947453872</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717947453872</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="a" />
+    <MESSAGE value="translator dzialajacy pl -&gt; en" />
+    <MESSAGE value="dodano przykładową nazwę przetłumaczonego tekstu z dopiskiem -en" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano przykładową nazwę przetłumaczonego tekstu z dopiskiem -en" />
   </component>
 </project>
