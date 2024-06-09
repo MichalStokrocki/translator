@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="literówka">
+    <list default="true" id="8619dbdc-230d-47f7-a3b6-53402d83ef37" name="Changes" comment="poprawka workflows">
       <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717962090485</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="poprawka workflows">
+      <option name="closed" value="true" />
+      <created>1717962728970</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717962728970</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +254,7 @@
     <MESSAGE value="requirements.txt" />
     <MESSAGE value="workflow zmieniony na windows-latest" />
     <MESSAGE value="literówka" />
-    <option name="LAST_COMMIT_MESSAGE" value="literówka" />
+    <MESSAGE value="poprawka workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawka workflows" />
   </component>
 </project>
