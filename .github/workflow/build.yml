@@ -1,0 +1,29 @@
+name: automatyczne budowanie
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  setup-python:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+         python-version: '3.12.4'
+    - run: pip install pytest
+    - run: pip install PyQt5
+    - run: pip install pyinstaller
+    - run: pyinstaller.exe --onefile --noconsole Translator.py
+    - name: upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: artifact
+        path: dist/**
+        if-no-files-found: error
+        retention-days: 7
